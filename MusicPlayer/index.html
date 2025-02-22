@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player with Slider | Swiper JS By Shobhitdev</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <!-- partial:index.partial.html -->
+
+  <body>
+    <div class="album-cover">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <!-- bhool bhulaiya ram -->
+            <img src="image/BhoolBhulaiya3.avif">
+            <div class="overlay">
+              <a href="https://youtu.be/Cus-6cnyt1s?si=wPpiJWsrftM3xQ9U" target="_blank"><ion-icon
+                  name="logo-youtube"></ion-icon></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- chhava image -->
+            <img src="image/Chhava.jpg">
+            <div class="overlay">
+              <a href="https://youtu.be/x2J1qbndOmU?si=lxnsJhWLxwaU1boD" target="_blank"><ion-icon
+                  name="logo-youtube"></ion-icon></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- perfect ed sheran image -->
+            <img src="image/perfect.webp" />
+            <div class="overlay">
+              <a href="" target="_blank"><ion-icon name="logo-youtube"></ion-icon></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- onelove shubh image -->
+
+            <img src="image/one love.jpg" />
+            <div class="overlay">
+              <a href="https://youtu.be/0pWsCiBvLOk?si=ntp9mHF3BEESbyML" target="_blank"><ion-icon
+                  name="logo-youtube"></ion-icon></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- Tum se hi-->
+            <img src="image/JabWeMet.jpg" />
+            <div class="overlay">
+              <a href="https://youtu.be/mt9xg0mmt28?si=6504DlVGdzXMyWWg" target="_blank"><ion-icon name="logo-youtube">
+                </ion-icon>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- Ishq Hai -->
+            <img src="image/IshqHai.jpg" />
+            <div class="overlay">
+              <a href="https://youtu.be/BcSejVIxB0E?si=51RPqWXMvAd6Yz4S" target="_blank"><ion-icon
+                  name="logo-youtube"></ion-icon></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <!-- Subahnallah  -->
+            <img src="image/YJHD.jpg" />
+            <div class="overlay">
+              <a href="https://youtu.be/QYO6AlxiRE4?si=ND1-Dh4ERss2UTrs" target="_blank"><ion-icon
+                  name="logo-youtube"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="music-player">
+      <h1>Title</h1>
+      <p>Song Name</p>
+
+      <audio id="song">
+        <source src="song-list/Luke-Bergs-Gold.mp3" type="audio/mpeg" />
+      </audio>
+
+      <input type="range" value="0" id="progress" />
+
+      <div class="controls">
+        <button class="backward">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+        <button class="play-pause-btn">
+          <i class="fa-solid fa-play" id="controlIcon"></i>
+        </button>
+        <button class="forward">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+      </div>
+    </div>
+    <footer>©kanishksharma</footer>
+  </body>
+  <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>
+  <script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js'></script>
+  <script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'></script>
+  <script src="./script.js"></script>
+
+</body>
+
+</html>
